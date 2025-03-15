@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -45,6 +43,7 @@ public class Main {
         //Usando arrays (listas)
         int[] numeros = {10, 20, 30, 40, 50};
         System.out.println("Primeiro número: " + numeros[0]);
+        System.out.println("Terceiro número: " + numeros[2]);
         System.out.println("Último número: " + numeros[numeros.length - 1]);
         System.out.println("-------------------------------------------------");
 
@@ -66,6 +65,16 @@ public class Main {
 
         System.out.println("Olá, meu nome é " + nome + " tenho " + idade + " anos e peso " + peso + "kg.");
         System.out.println("-------------------------------------------------");
+
+        //Verificando par ou impar
+        int numeroVerificar = 8;
+
+        if (numeroVerificar % 2 == 0) {
+            System.out.println("O numero " + numeroVerificar + " é par");
+        }
+        else {
+            System.out.println("O numero " + numeroVerificar + " é impar");
+        }
 
     }
 }
