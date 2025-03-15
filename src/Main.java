@@ -66,7 +66,7 @@ public class Main {
         System.out.println("Olá, meu nome é " + nome + " tenho " + idade + " anos e peso " + peso + "kg.");
         System.out.println("-------------------------------------------------");
 
-        
+
         //Verificando par ou impar
         int numeroVerificar = 8;
 
