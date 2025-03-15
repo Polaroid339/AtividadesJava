@@ -2,6 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
+        //Media de 3 números
         int num1 = 4;
         int num2 = 7;
         int num3 = 6;
@@ -13,6 +15,12 @@ public class Main {
         System.out.println("A média do double é: " + media);
         System.out.println("A média do inteiro é: " + media2);
         System.out.println("A média do long é: " + media3);
+        System.out.println();
+
+        //Declaração de long
+        long distancia = 149600000L;
+
+        System.out.println("A distância da Terra ao Sol é: " + distancia + " km.");
         System.out.println();
     }
 }
