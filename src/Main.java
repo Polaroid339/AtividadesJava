@@ -76,6 +76,35 @@ public class Main {
         else {
             System.out.println("O numero " + numeroVerificar + " é impar");
         }
+        System.out.println("-------------------------------------------------");
 
+
+        //Pre Incremento e Pos Incremento
+        int a = 5;
+        int b = a++;
+        int c = ++a;
+
+        System.out.println("Valor de a: " + a);
+        System.out.println("Valor de b: " + b);
+        System.out.println("Valor de c: " + c);
+        System.out.println("-------------------------------------------------");
+
+
+        //Operadores Abreviados
+        int valor = 20;
+        valor += 5;
+        valor *= 2;
+        valor -= 3;
+        valor /= 2;
+        valor %= 4;
+        System.out.println("Resultado final: " + valor);
+        System.out.println("-------------------------------------------------");
+
+
+        //Concatenção e expreção matemática
+        int senai1 = 10;
+        int senai2 = 20;
+        System.out.println("O valor da soma é: " + senai1 + senai2); //isso é uma concatenação
+        System.out.println("O valor da soma é: " + (senai1 + senai2)); //isso é uma expreção matemática
+        }
     }
-}
